@@ -1,0 +1,55 @@
+button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin: 2px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #A17DB7;
+}
+
+button:active {
+    background-color: #B08DC0;
+}
+
+input {
+    background-color: #C7A2CC;
+    border: none;
+    width: 500px;
+    font-size: 35px;
+}
+
+.culc {
+    background-color: #C7A2CC;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.culc__control {
+    display: flex;
+}
+
+.clean {
+    display: flex;
+}
+
+.clean__clean-button {
+    background-color: #DCC8E2;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers__number-button {
+    background-color: #ffffff;
+}
+
+.operations__button {
+    background-color: #DCC8E2;
+}

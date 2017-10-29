@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Culc</title>
+        <link rel="stylesheet" href="css/style.css">        
+    </head>
+    <body>
+        <div class="culc">
+            <form action="" clacc="culc__form">
+                <input type="text" placeholder="0" class="culc__input" id="input">
+            </form>
+
+            <div class="culc__control">
+                <div class="culc__numbers-and-clean-wrapper">
+                    <div class="culc__clean-wrapper clean">
+                        <button class="clean__clean-button clean__clean-button--clear-entry">CE</button>
+                        <button class="clean__clean-button clean__clean-button--clear">C</button>
+                        <button class="clean__clean-button clean__clean-button--backspace">Del</button>
+                    </div>
+                    <div class="culc__numbers-wrapper numbers">
+                        <button class="numbers__number-button">1</button>
+                        <button class="numbers__number-button">2</button>
+                        <button class="numbers__number-button">3</button>
+                        <button class="numbers__number-button">4</button>
+                        <button class="numbers__number-button">5</button>
+                        <button class="numbers__number-button">6</button>
+                        <button class="numbers__number-button">7</button>
+                        <button class="numbers__number-button">8</button>
+                        <button class="numbers__number-button">9</button>
+                        <button class="numbers__number-button numbers__number-button--sign">+/-</button>
+                        <button class="numbers__number-button">0</button>
+                        <button class="numbers__number-button numbers__number-button--comma">,</button>
+                    </div>
+                </div>
+
+                <div class="culc__operations-wrapper operations">
+                    <button class="operations__button operations__button--divide">/</button>
+                    <button class="operations__button operations__button--multiply">x</button>
+                    <button class="operations__button operations__button--minus">-</button>
+                    <button class="operations__button operations__button--plus">+</button>
+                    <button class="operations__button operations__button--equally">=</button>
+                </div>
+            </div>
+        </div>
+
+        <script href="Js/scripts.js"></script>
+    </body>
+</html>
